@@ -29,10 +29,10 @@ The above pseudocode has the same assumptions that were noted for the FNV-1 pseu
 
 As an example, consider the 64-bit FNV hash:
 
-*All variables, except for byte_of_data, are 64-bit unsigned integers.
-*The variable, byte_of_data, is an 8-bit unsigned integer.
-*The FNV_offset_basis is the 64-bit FNV offset basis value: 14695981039346656037 (in hex, 0xcbf29ce484222325).
-*The FNV_prime is the 64-bit FNV prime value: 1099511628211 (in hex, 0x100000001b3).
-*The multiply returns the lower 64-bits of the product.
-*The XOR is an 8-bit operation that modifies only the lower 8-bits of the hash value.
-*The hash value returned is a 64-bit unsigned integer.
+* All variables, except for byte_of_data, are 64-bit unsigned integers.
+* The variable, byte_of_data, is an 8-bit unsigned integer.
+* The FNV_offset_basis is the 64-bit FNV offset basis value: 14695981039346656037 (in hex, 0xcbf29ce484222325).
+* The FNV_prime is the 64-bit FNV prime value: 1099511628211 (in hex, 0x100000001b3).
+* The multiply returns the lower 64-bits of the product.
+* The XOR is an 8-bit operation that modifies only the lower 8-bits of the hash value.
+* The hash value returned is a 64-bit unsigned integer.
