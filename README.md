@@ -85,7 +85,7 @@ console.log('Hexadecimal: ', hashValue.toHex());
 
 ```javascript
 var Fnv = require('dding-fnv');
-var hashValue = Fnv.hash64('testString', '1');
+var hashValue = Fnv.hash64('testString', '1a');
 console.log('String:', hashValue.toStr());
 console.log('Decimal: ', hashValue.toDec());
 console.log('Hexadecimal: ', hashValue.toHex());
@@ -93,5 +93,5 @@ console.log('Hexadecimal: ', hashValue.toHex());
 
 
 ## License
-[MIT](http://sailsjs.com/license). Copyright © 2012-2017 Mike McNeil, Balderdash Design Co., & The Yunding-network Company
+[MIT](http://sailsjs.com/license). Copyright © 2012-2017 Linan Design & The Yunding-network Company
 
