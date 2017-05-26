@@ -1,0 +1,29 @@
+{
+  "name": "dding-fnv",
+  "version": "1.0.0",
+  "description": "Hash Fnv-1/Fnv-1a Algorithm in 32/64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunding-network/fnv.git"
+  },
+  "keywords": [
+    "hash",
+    "fnv",
+    "fnv-1",
+    "fnv-1a",
+    "algorithm"
+  ],
+  "author": "Yunding-network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yunding-network/fnv/issues"
+  },
+  "homepage": "https://github.com/yunding-network/fnv#readme",
+  "dependencies": {
+    "big-integer": "^1.6.22"
+  }
+}
